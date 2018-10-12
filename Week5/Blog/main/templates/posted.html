@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+{% if all_items %}
+
+{% for i in all_items %}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><a href="{% url 'post_detail' pk=i.pk %}" style="color:black">{{ i.tit_bl }}</a></h1>
+    <p class="lead">{{ i.createted_at }}</p>
+  </div>
+</div>
+{% endfor %}
+
+{% endif %}
+
+{% endblock %}

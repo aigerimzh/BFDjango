@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<form action="{% url 'my_blog' %}" method="POST">
+		{% csrf_token %}
+		<label for="exampleFormControlInput1">Blog Title</label>
+		<input type="text" name="tit_bl" class="form-control" id="exampleFormControlInput1">
+		<br/>
+		<label for="exampleFormControlInput2">Type your Blog</label>
+		<input type="text" name="text_bl" class="form-control" id="exampleFormControlInput2">
+		<br/>
+		<button class="btn btn-dark" type="submit">Post</button>
+
+</form>
+
+{% endblock %}

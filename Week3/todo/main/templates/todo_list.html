@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Tasks in "List 1"</h1>
+
+	<table>
+	<tr>
+    <th>Task</th>
+    <th>Created</th>
+    <th>Due on</th>
+    <th>Owner</th>
+    <th>Status</th>
+  	</tr>
+	{% for i in numbers %}
+	<tr>
+
+		<td>Task {{i}}</td>
+		<td>{{ created }}</td>
+		<td>{{due_on}}</td>
+		<td>{{owner}}</td>
+		<td>Done</td>
+	</tr>
+	{% endfor %}
+	</table>
+
+
+
+<a href=""><button class="button3">Delete List</button></a>
+<a href="{% url 'completed_todo_list' %}"><button class="button2">View completed tasks</button></a>
+{% endblock %}

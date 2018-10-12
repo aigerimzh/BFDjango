@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="card" style="width: 69rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{ item.tit_bl }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{ item.createted_at }}</h6>
+    <p class="card-text">{{ item.text_bl }}</p>
+    <a href="{% url 'delete_post' pk=item.pk %}"><button type="button" class="btn btn-danger">Delete</button></a>
+    <a href="{% url 'post_edit' pk=item.pk %}"><button type="button" class="btn btn-success">Edit</button></a>
+  </div>
+</div>
+<br/>
+<h1>Write Comment:</h1>
+<form action="{% url 'add_comment_to_post' pk=item.pk %}" method="POST">
+		{% csrf_token %}
+		<input type="text" name="text_com" class="form-control" id="exampleFormControlInput1" placeholder="Write your comment here">
+		<br/>
+		<input type="text" name="user" class="form-control" id="exampleFormControlInput2" placeholder="Write your username">
+		<br/>
+		<button class="btn btn-dark" type="submit">Add Comment</button>
+</form>
+<br/>
+{% for comment in item.comments.all %}
+<div class="card w-75">
+  <div class="card-body">
+    <h5 class="card-title">{{ comment.user }} {{ comment.created_date }}</h5>
+    <p class="card-text">{{ comment.text_com }}</p>
+    <a href="{% url 'delete_com' pk=comment.pk %}"><button type="button" class="btn btn-danger">Delete</button></a>
+  </div>
+</div>
+{% empty %}
+    <p>No comments here:(</p>
+{% endfor %}
+
+
+
+{% endblock %}
