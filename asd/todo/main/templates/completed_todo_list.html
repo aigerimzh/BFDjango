@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Completed tasks in "List "</h1>
+
+
+{% if all_items %}
+	<table>
+	<tr>
+    <th>Task</th>
+    <th>Created</th>
+    <th>Due on</th>
+    <th>Status</th>
+    <th>Owner</th>
+    <th>Delete</th>
+  	</tr>
+	{% for i in all_items %}
+	<tr>
+		{% if i.completed == True %}
+		{% if user.is_superuser %}
+		
+		<td>{{ i.item }}</td>
+		<td>{{ i.createted_at }}</td>
+		<td>{{i.due}}</td>
+		<td><a href="{% url 'not_done_task' i.id %}"">Not Done</a></td>
+		<td>Admin</td>
+		<td><a href="{% url 'delete_task' i.id %}">Delete</a></td>
+		{% else %}
+		<td>{{ i.item }}</td>
+		<td>{{ i.createted_at }}</td>
+		<td>{{i.due}}</td>
+		<td><a href="{% url 'not_done_task' i.id %}">Not Done</a></td>
+		<td>User</td>
+		<td><a href="{% url 'delete_task' i.id %}">Delete</a></td>
+		{% endif %}
+		{% endif %}
+	</tr>
+	{% endfor %}
+	</table>
+
+{% endif %}
+
+
+
+<a href="{% url 'todo_list' %}"><button class="button2">View NOT completed tasks</button></a>
+{% endblock %}
