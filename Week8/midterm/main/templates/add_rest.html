@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+
+<h2>Add Restaurant here</h2>
+{% block content %}
+
+
+
+<form action="{% url 'add_rest' %}" method="post">
+		{% csrf_token %}
+		<label for="exampleFormControlInput1">Restaurant name</label>
+		<input type="text" name="r_name" class="form-control" id="exampleFormControlInput1">
+		<br/>
+		<label for="exampleFormControlInput2">Telephone</label>
+		<input type="text" name="tel" class="form-control" id="exampleFormControlInput2">
+		<br/>
+		<label for="exampleFormControlInput3">City</label>
+		<input type="text" name="city" class="form-control" id="exampleFormControlInput3">
+		<br/>
+		<button class="btn btn-dark" type="submit">Add</button>
+
+</form>
+
+{% endblock %}

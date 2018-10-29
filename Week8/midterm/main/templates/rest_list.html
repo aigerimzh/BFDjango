@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+
+{% block content %}
+
+<h2>List of Restaurant</h2>
+
+
+
+{% for r in rest %}
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><a href="{% url 'rest_detail' pk=r.pk %}" style="color:black">{{r.r_name}}</a></h1>
+    <p class="lead">{{ r.tel }}</p>
+  </div>
+</div>
+{% endfor %}
+
+
+
+{% endblock %}
+
