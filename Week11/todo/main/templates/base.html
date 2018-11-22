@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> 
+</head>
+
+<body>
+<div class="header">
+	<h2 class="tit">BFDjango TODO</h2>
+	<a href="{% url 'home' %}"><button class="button3">Home</button></a>
+	<a href="{% url 'task_create' %}"><button class="button3">Task Create</button></a>
+	<a href="{% url 'list_list' %}"><button class="button3">TODO List</button></a>
+	<a href="{% url 'login' %}"><button class="button3">Login</button></a>
+	<a href="{% url 'logout' %}"><button class="button3">Logout</button></a>
+	<a href="{% url 'register' %}"><button class="button3">Register</button></a>
+</div>
+
+
+<div >
+	{% block content %}
+	{% endblock %}
+</div>
+
+
+</body>
+</html>

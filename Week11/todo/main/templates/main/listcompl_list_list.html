@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Tasks in "List 1"</h1>
+
+
+    <table>
+    <tr>
+    <th>Task</th>
+    <th>Created</th>
+    <th>Due on</th>
+    <th>Status</th>
+    <th>Owner</th>
+    <th>Delete</th>
+    <th>Edit</th>
+    </tr>
+    {% for td in compl_list %}
+    <tr>
+        {% if td.completed == True %}
+        
+        <td>{{ td.item }}</td>
+        <td>{{ td.createted_at }}</td>
+        <td>{{ td.due }}</td>
+        <td><a href="{% url 'not_done_task' td.id %}">Not done</a></td>
+        <td>{{ td.created_by}}</td>
+        <td><a href="{% url 'list_delete' td.id %}">Delete</a></td>
+        <td><a href="{% url 'list_update' td.id %}">Edit</a></td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+    </table>
+
+
+<a href="{% url 'list_list' %}"><button class="button2">View todo tasks</button></a>
+<a href=""><button class="button3">Delete List</button></a>
+{% endblock %}

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e78961b-0bdf-44f5-9af8-26dd3c8a3681" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Week5/Blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Blog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/Blog/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/Blog/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/Blog/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/Blog/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/auth_/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/migrations/0002_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/templates/my_blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/templates/post_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/templates/post_edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/templates/posted.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/Blog/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/auth_/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/0002_list_createted_at.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/0003_listcompl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/0004_list_due.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/0005_auto_20181009_1252.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/templates/completed_todo_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/templates/edit_task.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/templates/todo_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/main/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/todo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/todo/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/todo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week7/todo/todo/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week8/midterm/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week8/midterm/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week8/midterm/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week8/midterm/main/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week8/midterm/main/templates/add_rest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week8/midterm/main/templates/add_rest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week8/midterm/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week8/midterm/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week8/midterm/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week8/midterm/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week9/Blog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week9/Blog/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1853099615">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="839" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="839" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_/views/generic_cbv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-305">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1541804457000" expanded="true" signature="672:1500" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>create</find>
+      <find>rou</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/todo/settings.py" />
+        <option value="$PROJECT_DIR$/api_/views/authenticate.py" />
+        <option value="$PROJECT_DIR$/todo/urls.py" />
+        <option value="$PROJECT_DIR$/api_/serializers.py" />
+        <option value="$PROJECT_DIR$/api_/urls.py" />
+        <option value="$PROJECT_DIR$/api_/views/generic_cbv.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="86" />
+    <option name="y" value="70" />
+    <option name="width" value="1400" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="api_" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="api_" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e78961b-0bdf-44f5-9af8-26dd3c8a3681" name="Default Changelist" comment="" />
+      <created>1541762588501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541762588501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="86" y="70" width="1400" height="757" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33233082" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935917" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api_/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_/views/authenticate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_/views/generic_cbv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1541804457000" expanded="true" signature="672:1500" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
