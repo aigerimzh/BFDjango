@@ -1,0 +1,74 @@
+.header {
+    background: black;
+}
+.tit{
+	color: white;
+}
+
+.button4 {
+    background-color: #f45f41;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #f4a442;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button3 {
+    background-color: #f45f41;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+table {
+	width: 100%;
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+tr{
+	height: 50px;
+}
